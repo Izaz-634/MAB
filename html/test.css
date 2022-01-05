@@ -1,0 +1,104 @@
+#lamia {
+    border: 2px solid tomato;
+    padding: 40px;
+    margin: 30 10 15 20;
+    color: blueviolet;
+    font-size: 20px;
+    text-align: center;
+}
+
+a:link{
+    border: 2px solid tomato;
+    display: inline-block;
+
+}
+
+a:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+#a1{
+    text-align: center;
+    border: 2px dashed tomato;
+    padding: 10px;
+}
+
+#women{
+    width: 300px;
+    height: 300px;
+}
+
+#gif{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.bg{
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; */
+    width: 500px;
+    height: 300px;
+}
+
+table,th,td,tr{
+    border: 1px solid tomato;
+    /* for remove double border 
+    border-collapse: collapse;
+    
+they are border-style
+    dotted     
+    dashed     
+    solid     
+    double     
+    groove     
+    ridge     
+    inset     
+    outset     
+    none     
+    hidden     
+ */
+    border-radius: 8px;
+    border-spacing: 10px;
+    padding: 15px;
+    margin-top: 15px;
+
+}
+
+tr:nth-child(even), td:nth-child(even),th:nth-child(even) {
+    background-color: #d6eeee;
+}
+
+tr.hover:hover{
+    background-color: #a81edf;
+}
+
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+#list{
+    float: left;
+}
+#list a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#list a:hover{
+    background-color: #111111;
+}
+
+.iframe{
+    height: 200px;
+    width: 400px;
+}

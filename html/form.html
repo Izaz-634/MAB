@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form learning</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="input, form,">
+        <meta name="description" content="from practice">
+        <meta name="author" content="Izaz Ahmmed">
+        <meta http-equiv="refresh" content="130">
+        <meta name="keywords" content="">
+        <link rel="icon" type="image" href="picture/fabicon.jpeg">
+    </head>
+    <body>
+        <div>
+            <p>An Html form is used to collect information from user</p>
+            <p>and often sent to a server for processing</p>    
+                <p>Label is used for labeling</p><br>
+                <p>Here we can use some types like</p>
+                <ul>
+                    <li>text</li>
+                    <li>radio</li>
+                    <li>checkbox</li>
+                    <li>submit</li>
+                    <li>button</li>
+                </ul>
+
+
+                <br>
+                <form action="" target="_blank" method="post" autocomplete="on">
+                  <fieldset> 
+                      <legend>Caption for fieldset</legend>
+                      <label for="fname">First Name:</label><br>
+                      <input type="text" name="fname" id="fname"><br>
+                      <label for="lname">Last Name:</label><br>
+                      <input type="text" name="lname" id="lname"><br>
+                      <input type="submit" value="submit">
+                  </fieldset>
+                
+                </form>
+                <br>
+                <p>Choose your favourite Language:</p>
+                <form action="">
+                    <input type="radio" name="fvl" id="html" value="HTML">
+                    <label for="html">HTML</label><br>
+                    <input type="radio" name="fvl" id="css" value="CSS">
+                    <label for="css">CSS</label><br>
+                    <input type="radio" name="fvl" id="java" value="JAVA">
+                    <label for="java">JAVA</label>
+                </form>
+                <br>
+                <p>Now Checkbox</p>
+                <form action="">
+                    <input type="checkbox" name="vehicle1" id="vehicle1" value="car">
+                    <label for="vehicle1">Car</label><br>
+                    <input type="checkbox" name="vehicle2" id="vehicle2" value="bike">
+                    <label for="vehicle2">Bike</label><br>
+                </form>
+
+                <p>Submit button</p>
+
+                <form action="">
+                    <input type="submit" value="submit">
+                </form>
+
+                <form action="">
+                    <label for="cars">Choose a car</label>
+                    <select name="cars" id="cars" size="1" multiple>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="audi" selected>Audi</option>
+                    </select>
+                    <textarea name="message" id="message" cols="30" rows="10">Enter your message
+                    </textarea>
+                </form>
+
+                <form action="">
+                    <input list="browsers">
+                    <datalist id="browsers">
+                        <option value="firefox">Firefox</option>
+                        <option value="chorme">Chrome</option>
+                        <option value="opera">Opera</option>
+                        <option value="safari">Safari</option>
+                    </datalist>
+
+                </form>
+                
+                <form action="" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    0 <input type="range" id="a" name="a" value="50">100+
+                    <input type="number" id="b" name="b" value="50"> 
+                    =
+                    <output name="x" for="a b"></output> <br>
+                </form>
+                <form action="">
+                    <label for="favcolor">Choose your favourite color</label>
+                    <input type="color" name="favcolor" id="favcolor">
+                    <label for="bthdate">Give your Birth date: </label>
+                    <input type="date">
+                    <label for="datemax">Enter a date before 1980-01-01:</label>
+                    <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+                    <label for="datemin">Enter a date after 2000-01-01:</label>
+                    <input type="date" id="datemin" name="datemin" min="2000-01-02">
+
+                    <br>
+                    <label for="birthdaytime">Birthday (date and time):</label>
+                    <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+                    <input type="hidden" name="custID" value="3487">
+                    <input type="number" name="quantity" id="quantity" min="1" max="5">
+                </form>
+        </div>
+        <div>
+            <h3>Html input attribute:</h3>
+            <dl>
+                <dt>readonly</dt>
+                <dd>-the input field is read only</dd>
+                <dt>disabled</dt>
+                <dd>-the input field will disable & it will not sent data to server</dd>
+                <dt>size</dt>
+                <dd>- attribute specifies the visible width, in characters, of an input field</dd>
+                <dt>maxlength</dt>
+                <dd>-the maximum number of char for input field</dd>
+                <dt></dt>
+                <dt></dt>
+                <dt></dt>
+            </dl>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,381 @@
+<html>
+    <head>
+        <title>My Html learning</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="description" content="You learn about html css">
+        <meta name="author" content="Izaz Ahmmed">
+        <meta http-equiv="refresh" content="60">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image" href="picture/fabicon.jpeg">
+        <!-- <link> Defines the relationship between a document and an external resource -->
+        <link rel="stylesheet" href="test.css">
+        <!-- base tag valo kore sekha lagbe -->
+    </head>
+    <body>
+        <!-- The HTML element is everything from the start tag to the end tag: -->
+        <p>Here the journey Stert</p>
+        <!-- start tag, element content, end tag -->
+        <p>Here "src" is an attribute and all attribute are stay in start tag</p>
+        <img src="picture/pic_bulbon.gif" alt="This is a bulb" style="width: 100px;">
+        <h2 id="a1"> Working With Text</h2>
+        <h6>Hello Lamia</h6>
+        <p>You are really cute people's say</p>
+        <br>
+        <hr>
+        <pre>
+            here we can dislpay text
+            same as we write
+            pre means pre-formatted
+        </pre>
+       
+        <!-- <tagname style="property:value;">fgfgg</tagname> -->
+        <p style="color: blueviolet;font-size: 25px;">Text color</p>
+        <p style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;">Text align in center</p>
+        <b>Bold Text</b>
+        <strong>Important Text</strong>
+        <i>Italic text</i>
+        <em>Emphasized Text</em>
+        <mark>Marked Text</mark>
+        <small>Smaller Text</small>
+        <del>Deleted Text</del>
+        <ins>Insertd Text</ins>
+        <sub>Subscript Text</sub>
+        <sup>Superscript Text</sup>
+
+        <blockquote cite="www.google.com"> This defines a section that is quoted from anathoer site</blockquote>
+        <p>gives <q>Qutation</q></p>
+        <p>Marking abbreviations
+            <abbr title="World Health organization">WHO</abbr>
+            can give useful information to browsers,
+         translation systems and search-engines.</p>
+        <address>
+            Izaz Ahmmed Tuhin <br>
+            Karpashdanga <br>
+            Damurhuda, Chuadanga
+        </address>
+        <p>Add your Tittle<cite>Tittle for work </cite>
+        </p>
+        <bdo dir="rtl">I love you</bdo>
+
+        <div>
+            <h1 style="background-color: dodgerblue; text-align: center;">Hello World!</h1>
+            <h5 id="lamia">Khairun Nahar Lamia</h5>
+        </div>
+        <div class="link">
+            <!-- absolute = full web address & relative means = a link in same website -->
+            <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">W3School link page</a>
+            <p>Here We also can use _self,_blank,_parent,_top as a value of target</p>
+            <a href="https://www.google.com/" target="_self">
+                <img src="picture/googler.png" alt="Google icon">
+            </a>
+            <a href="mailto:izaz532963@gmail.com">mailto for creating send me email link</a>
+            <button onclick="document.location='https://www.google.com/'" title="go to google">Google</button>
+            <a href="#a1">Jump to Text</a>
+            <a href="html_demo.html#C4">link for anathoer page</a>
+        </div>
+
+        <div class="image">
+            <img src="picture/womenj.jpg" alt="Girl with jacket" id="women">
+            <img src="picture/programming.gif" alt="Gif for programming" id="gif">
+            <p>Working with image map </p>
+            <img src="picture/workspace.jpg" alt="workspace" usemap="#workmap">
+            <map name="workmap">
+                <area shape="rect" coords="34,44,270,350" alt="Computer" href="#" onclick="imageMap()">
+                <area shape="rect" coords="290,172,333,250" alt="Phone" href="#">
+                <area shape="circle" coords="337,300,44" alt="Coffee" href="#">
+            </map>
+        </div>
+        <div class="bg" style="background-image: url(picture/img_girl.jpg);">
+            A background image for div element , in the same way you can add it in parargraph tag
+            also we add image for full page, for this we need to add background image in body tag
+            If you want the background image to cover the entire element, you can set the 
+            background-size property to cover to make sure the entire element is always covered, 
+            set the background-attachment property to fixed:
+        </div>
+
+        <div class="pic">
+            <picture>
+                <source media="(min-width: 650px)" srcset="picture/img_food.jpg">
+                <source media="(min-width: 465px)" srcset="picture/img_car.jpg">
+                <img src="picture/img_girl.jpg">
+              </picture> 
+        </div>
+
+        <div class="table">
+            <table style="width: 100%; border: 1px solid tomato;">
+                <caption>Table with css</caption>
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>Madina Auto</td>
+                    <td>01915153860</td>
+                    <td>Bangladesh</td>
+                </tr>
+                <tr>
+                    <td>Lamia Group</td>
+                    <td>01960432399</td>
+                    <td>Bangladesh</td>
+                </tr>
+            </table>
+            <table style="width: 60%;">
+                <caption>With some CSS</caption>
+                <tr>
+                    <th>Name</th>
+                    <th colspan="2">Mobile NB</th>
+                    <th>Salary</th>
+                </tr>
+                <tr>
+                    <td>Izaz Ahmmed</td>
+                    <td>01960432399</td>
+                    <td>01994211167</td>
+                    <td rowspan="2">10k</td>
+                </tr>
+                <tr>
+                    <td>Lamia</td>
+                    <td colspan="2" style="text-align: center;">010101010</td>
+                </tr>
+                <tr></tr>
+            </table>
+
+            <table>
+                <tr class="hover">
+                    <td>Izaz</td>
+                    <td>Ahmmed</td>
+                    <td>Tuhin</td>
+
+                </tr>
+                <tr class="hover">
+                    <td>Khairun</td>
+                    <td>Nahar</td>
+                    <td>Lamia</td>
+                </tr>
+                
+            </table>
+
+            <table style="width: 100%;">
+                <caption>Table with colgroup</caption>
+                <colgroup>
+                  <!-- empty call for editing in middle -->
+                  <col span="3">
+                  <col span="2" style="background-color: #ddeed6">
+                  <!-- hide two colum -->
+                  <col span="2" style="visibility: collapse;">
+                </colgroup>
+                <thead>Lamia</thead>
+                <tr>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+                <th>FRI</th>
+                <th>SAT</th>
+                <th>SUN</th>
+                </tr>
+                <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                </tr>
+                <tr>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                </tr>
+                <tr>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                </tr>
+                <tr>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                </tr>
+                </table>
+                
+        </div>
+
+        <div class="list">
+            <ul>
+                <li>Khairun</li>
+                <li>Nahar</li>
+                <li>Lamia</li>
+            </ul>
+            <ol>
+                <li>Ashikur</li>
+                <li>Rahman</li>
+                <li>Ashik</li>
+            </ol>
+            <dl>
+                <dt>DCL</dt>
+                <dd>-Daffodil Computer Limited</dd>
+                <dt>ILU</dt>
+                <dd>_I Love You</dd>
+            </dl>
+            <ul style="list-style-type: circle;">
+                <li>disc</li>
+                <li>circle</li>
+                <li>square</li>
+                <li>none</li>
+            </ul>
+
+            <ul style="list-style-type: square;">
+                <li>Tea
+                    <ul>
+                        <li>Black Tea</li>
+                        <li>Green Tea</li>
+                    </ul>
+                </li>
+                <li>Coffee
+                    <ul>
+                        <li>Black Coffe</li>
+                        <li>Chocolate coffe</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- horizontal list -->
+            <ul id="menu">
+               <li id="list"><a href="#">Home</a></li>
+               <li id="list"><a href="#">Contact</a></li>
+               <li id="list"><a href="#">News</a></li>
+               <li id="list"><a href="#">About</a></li>
+            </ul>
+
+            <ol type="I">
+                <li>Ashikur</li>
+                <li>Tuhin</li>
+                <li>Malek</li>
+                <li>Lamia</li>
+            </ol>
+        </div>
+        <div class="iframe">
+            <iframe src="https://www.w3schools.com/html/html_iframe.asp" 
+           name="iframe_a" frameborder="1" title="Webpage under webpage">
+            </iframe>
+
+            <a href="http://127.0.0.1:5500/html/whtml.html" target="iframe_a" style="margin-top: 10px;">Open link in iframe</a>
+        </div>
+
+        <img src="picture/cp.jpg" alt="CP" style="height: 500px; width: 500px;">
+
+        <div class="code" style="margin-top:20px">
+            <code>
+                x=5;
+                y=6;
+                cout>>z;
+            </code>
+
+            <p>kbd to define keyboard input<kbd>Ctrl + S</kbd></p>
+            <p>samp for program output <samp>File not found</samp></p>
+            <pre>
+                <code>
+                    pre define preformatted
+                    x=5;
+                    y=6;
+                    cout>>z;
+                </code>
+            </pre>
+            <p>var meeans variable <var>B</var></p>
+        </div>
+        <section>
+            <h4>section element defines a section in a document.</h4>
+            <p>"A section is a thematic grouping of content, typically with a heading."</p>
+            <p>Section can be used in</p>
+            <ul>
+                <li>Chapters</li>
+                <li>Intrduction</li>
+                <li>News Iteams</li>
+                <li>Contact information</li>
+            </ul>
+
+        </section>
+
+        <article>
+            <h4>The <article> element specifies independent, self-contained content.</h4>
+            <p>Article element can be used in</p>
+            <ul>
+                <li>Forum Post</li>
+                <li>Blog post</li>
+                <li>Usser comments</li>
+                <li>Product cards</li>
+                <li>NewsPaper Article</li>
+            </ul>
+        </article>
+
+        <article>
+            <header>
+                <h4>A header typically contains</h4>
+            </header>
+            <ul>
+                <li>One or more heading</li>
+                <li>logo or icon</li>
+                <li>authorship information</li>
+            </ul>
+            <p>you can have several header elements in one html.However a header can not be placed within a</p>
+            <ol>
+                <li>Footer</li>
+                <li>address</li>
+                <li>header</li>
+            </ol>
+        </article>
+
+       <nav>
+           <h4>nav difines a set of navigation link</h4>
+           <a href="#">Home</a>
+           <a href="#">Contact</a>
+           <a href="#">About</a>
+        </nav> 
+
+        <aside>
+            <p> aside defines some content aside from the content it is placed in (like a sidebar).</p>
+        </aside>
+
+        <figure>
+            <p>tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.</p>
+            <img src="/html/picture/cp.jpg" alt="" style="width: 300px;height: 300px;">
+            <figcaption>figcaption defines a caption for figure</figcaption>
+        </figure>
+
+
+        <footer>
+            <h4>it defines a footer for a document</h4>
+            <p>A footer elements contain</p>
+            <ol type="1">
+                <li>Authorship Information</li>
+                <li>Copyright Information</li>
+                <li>Sitemap</li>
+                <li>related document</li>
+                <li>Back to top links</li>
+            </ol>
+        <details>
+            <p>Here i used details and summary tag</p>
+            <summary>
+                summary tag defines a visible heading for the details element
+            </summary>
+        </details>
+        </footer>
+        <script src="whtml.js"></script>
+        <noscript>Sorry Your browser doesnt support js</noscript>
+    </body>
+</html>
