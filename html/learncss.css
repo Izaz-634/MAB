@@ -1,0 +1,58 @@
+body{
+    margin-left: 10px;
+}
+.bg_pic{
+    background-image: url('picture/mountain.jpg');
+}
+
+.repeat{
+    height: 250px;
+    width: 100%;
+    background-image: url(picture/gradient_bg.png);
+    background-repeat: repeat-x;
+}
+
+.image_margin{
+    height: 500px;
+    background-image: url('picture/img_tree.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: scroll;
+}
+
+p.dotted {
+    border-style: dotted solid dashed;
+    border-width: 5px;
+    border-color: red green blue black;
+}
+p.dashed {
+    border-style: dashed;
+    border-width: 1px 2px 3px 4px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+p.solid {
+    border-bottom: solid red 5px;
+    background-color: lightgrey;
+}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {
+    border-style: dotted dashed solid double;
+    margin: 25px 50px 75px 100px;
+}
+
+.justify{
+    width: 200px;
+    height: 250px;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid tomato;
+}

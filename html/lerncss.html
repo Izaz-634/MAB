@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Learn css</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="css">
+    <meta name="description" content="w3school css">
+    <meta name="author" content="Izaz Ahmed">
+    <meta http-equiv="refresh" content="200">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="learncss.css">
+    <link rel="icon" href="picture/fabicon.jpeg" type="image">
+
+
+
+</head>
+
+<body>
+    <div class="bg_pic">
+        <h4>In these chapter, we will learn about css background properties</h4>
+        <ul>
+            <li>background-color</li>
+            <li>background-image</li>
+            <li>background-repeat</li>
+            <li>background-attachment</li>
+            <li>background-position</li>
+            <li>background</li>
+        </ul>
+    </div>
+    <div style="background-color: lightblue;">
+        <p>background-color</p>
+        <p style="background-color: blue; opacity: 1; color: aliceblue;">Background color with opacity</p>
+        <p style="background: rgba(0, 128, 0, 0.3)">We also can change it usng rgb background: rgba(0, 128, 0, 0.3)</p>
+    </div>
+
+    <div class="repeat">
+        <p>Background with repeat</p>
+        <p>We also can repeat it on</p>
+        <ul>
+            <li>no-repeat</li>
+            <li>repeat-x</li>
+            <li>repeat-y</li>
+        </ul>
+    </div>
+    <div class="image_margin">
+        <p>Here, the background image is only shown once.
+            In addition it is positioned away from the text.</p>
+        <p>In this example we have also added a margin on the right side, so
+            that the background image will not disturb the text.it will work if we use it in body tag</p>
+        <p> we can shorten all this in single line css background: #ffffff url("img_tree.png") no-repeat right top;</p>
+        <dl>
+            <dt>background-clip</dt>
+            <dd>-Specifies the painting area of the background</dd>
+            <dt>background-origin</dt>
+            <dd>Specifies where the background image(s) is/are positioned</dd>
+            <dt>background-size</dt>
+            <dd>Specifies the size of the background image(s)</dd>
+
+        </dl>
+
+        <div class="border">
+            <p class="dotted">A dotted border.</p>
+            <p class="dashed">A dashed border.</p>
+            <p class="solid">A solid border.</p>
+            <p class="double">A double border.</p>
+            <p class="groove">A groove border.</p>
+            <p class="ridge">A ridge border.</p>
+            <p class="inset">An inset border.</p>
+            <p class="outset">An outset border.</p>
+            <p class="none">No border.</p>
+            <p class="hidden">A hidden border.</p>
+            <p class="mix">A mixed border.</p>
+            <p style="margin: 30px;
+                      background:yellow;
+                      border: 1px solid black;
+                      outline: 1px solid red;
+                      outline-offset: 15px;">
+                This paragraph has an outline of 15px outside the border edge.</p>
+        </div>
+    </div>
+
+    <br>
+    
+    <div style="margin-top: 470px;">
+        <p>The text-align: justify; value stretches the lines so that each line has equal width (like in newspapers and magazines).</p>
+        <div class="justify">
+            In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.
+             'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'
+        </div> 
+        <p>vertical-align text-top of <img src="picture/sqpurple.gif" alt="" style="vertical-align:top;width: 9px ; height:9px;"> an image </p>
+        <p style="text-decoration: overline;">Text text-decoration overline used here</p>
+        <p style="text-transform: uppercase;">text-transform uppercase used here</p>
+        <ul>
+            <p></p>
+        </ul>
+    </div>
+</body>
+
+</html>
