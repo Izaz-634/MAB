@@ -1,0 +1,65 @@
+#fname{
+    position: relative;
+    left: 50px;
+}
+
+#fname:focus{
+    color: tomato;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.child li:first-child{
+    list-style-type: circle;
+}
+
+.child li:nth-child(2n){
+    font-style: italic;
+    font-weight: bold;
+}
+
+.pseudo-element ul{
+    list-style-type: none;
+}
+
+.pseudo-element li::before{
+    content: "❤️";
+    padding-right: 7px;
+}
+
+.pseudo-element li:nth-child(2):after{
+    content: "⚽️";
+    margin-left: 10px;
+}
+
+.position{
+    height: 500px;
+    background-color: lightblue;
+}
+
+#first{
+    position: relative;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+#second{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+#third{
+    position: absolute;
+    top: 630px;
+    left: 110px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+#fourth{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+}
