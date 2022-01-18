@@ -1,0 +1,113 @@
+
+.bg-new{
+    background-color: #F0FFF0;
+    
+}
+.banner-text{
+    padding-left: 100px;
+}
+.top-banner{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F0FFF0;
+}
+.top-banner img{
+    width: 100%;
+    padding: 40px 30px;
+}
+.rounded{
+    width: 200px;
+    height: 60px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+
+.button-sign-in{
+    height: 43px;
+    width: 104px;
+    border-radius: 33px;
+    padding: 12px 28px 12px 28px;
+    background-color: #21B573;
+    text-align: center;
+    margin-left: 30px;
+
+}
+.button-green{
+    border: none;
+    border-radius: 33px;
+    padding:12px 36px;
+    background-color: #21B573;
+}
+.some-box{
+    margin-top: 80px;
+    
+}
+
+.box{
+    width: 270px;
+    height: 270px;
+    background: #F8FFFB;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+   height: 85px;
+}
+.box:hover{
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#online-course{
+    margin-top: 80px;
+    padding-bottom: 20px;
+}
+#purple{
+    color: #413960;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.icon{
+    width: 18px;
+    height: 20px;
+}
+.card{
+    box-shadow: 5px 5px 20px lightgray;
+}
+.card-img-top{
+    padding: 15px;
+}
+.man{
+    width: 120px;
+    height: 120px;
+}
+#testimonial{
+    margin: 70px 0;
+}
+footer{
+    color: white;
+}
+.last{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: #282531;
+}
+.course{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.last-col{
+    margin-right: 30px;
+}
+.course a,
+.course p{
+    color: white;
+}
