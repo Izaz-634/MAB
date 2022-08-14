@@ -1,0 +1,11 @@
+.box-1{
+    padding: 25px;
+    margin: 15px;
+    font-size: medium;
+    background-color: gray;
+}
+
+.container2{
+    background-color: dodgerblue;
+    display: flex;    
+}

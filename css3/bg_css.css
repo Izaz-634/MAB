@@ -1,0 +1,15 @@
+html{
+    background: url(images/img_man.jpg) no-repeat center fixed;
+    background-size: cover;
+
+}
+
+.example1{
+    width: 80%;
+    margin: auto;
+    background-image: url(images/img_flwr.gif),url(images/paper.gif);
+    background-position: right bottom,left top;
+    background-repeat: no-repeat,repeat;
+    padding: 10px;
+    margin-bottom: 10px;
+}

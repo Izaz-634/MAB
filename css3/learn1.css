@@ -1,0 +1,63 @@
+#header{
+    padding: 8px;
+    background-color: gray;
+}
+
+
+.box{
+    height: 40px;
+    width: 75%;
+    margin: auto;
+    background-color: green;
+    margin-top: 8px;
+}
+
+.column{
+    float: left;
+}
+
+.menu{
+    width: 25%;
+}
+
+.content{
+    width: 75%;
+}
+footer{
+    background-color: gray;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 20px;
+    background-color: gray;
+}
+
+li{
+    float: left;
+    
+}
+li a{
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
