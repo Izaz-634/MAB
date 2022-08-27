@@ -1,0 +1,22 @@
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "h h h h h h h h h h h h"
+        "m m c c c c c c c c c c"
+        "f f f f f f f f f f f f";
+    grid-template-rows: 200px auto 200px;
+}
+
+.header{
+    grid-area: h;
+}
+.menu{
+    grid-area: m;
+}
+.content{
+    grid-area: c;
+}
+.footer{
+    grid-area: f;
+}

@@ -1,0 +1,29 @@
+.product{
+    display: flex;
+    border-bottom: 2px solid lightgray;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.right{
+    margin-left: 15px;
+}
+.right h4{
+    color:  blue;
+}
+
+.btn{
+    padding: 8px 50px;
+    background-color: #f0c14b;
+    border-color: #a88734;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    margin-left: 10%;
+}
+
