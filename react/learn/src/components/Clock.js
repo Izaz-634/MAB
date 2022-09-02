@@ -2,6 +2,7 @@ import React from 'react';
 import Button from './Button';
 
 class Clock extends React.Component {
+    
     constructor(props) {
         super(props);
         this.state = { date: new Date(), local: 'en-US' };

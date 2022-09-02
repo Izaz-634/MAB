@@ -40,7 +40,7 @@ class Form extends React.Component{
     }
     render(){
         const {title,textarea,library,isAwesome} = this.state;
-        return(
+        return( 
             <form onSubmit={this.handleSubmit}>
                 <input type="text" value={title} onChange={this.handleChange}/>
                 <br />
